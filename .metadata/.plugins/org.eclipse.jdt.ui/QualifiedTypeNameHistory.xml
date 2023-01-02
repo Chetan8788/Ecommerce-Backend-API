@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="sort_using_comparator.IntSort"/>
+    <fullyQualifiedTypeName name="sort_using_comparator.FootBallWorldCup"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="sort_using_comparator.StringSort"/>
+    <fullyQualifiedTypeName name="sort_using_comparator.IntSortAscending"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="sort_using_comparator.Pair"/>
+    <fullyQualifiedTypeName name="sort_using_comparator.StringSortDecsending"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="com.masai.exercise1.Student"/>
+    <fullyQualifiedTypeName name="com.ImmutbleObject.Student"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,7 @@
+package sort_using_comparator;
+
+public class Pair {
+
+	int wins;
+	String name;
+}

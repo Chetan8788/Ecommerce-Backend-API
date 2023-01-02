@@ -1,0 +1,30 @@
+package sort_using_comparator;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Pair p1 = new Pair(5, "Brazil");
+		Pair p2 = new Pair(6, "Argentina");
+		Pair p3 = new Pair(5, "France");
+		Pair p4 = new Pair(5, "Morocco");
+		Pair p5 = new Pair(4, "England");
+		Pair p6 = new Pair(4, "Portugal");
+		Pair p7 = new Pair(4, "Spain");
+		Pair p8 = new Pair(4, "USA");
+		Pair p9 = new Pair(3, "Iran");
+		Pair p10 = new Pair(3, "Germany");
+		Pair p11 = new Pair(3, "Qatar");
+		Pair p12 = new Pair(2, "Japan");
+		
+				
+	    Pair[] arr = {p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12};
+	    
+	    FootBallWorldCup fb = new FootBallWorldCup();
+	    
+	    fb.setArr(arr);
+	    
+	    System.out.print(fb.n);
+			
+	}
+}

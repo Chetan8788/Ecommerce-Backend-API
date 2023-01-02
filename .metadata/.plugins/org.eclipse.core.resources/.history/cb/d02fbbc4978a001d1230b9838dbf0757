@@ -1,0 +1,14 @@
+package com.ImmutbleObject;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student s = new Student(12, "chetan");
+		
+		System.out.println(s.getName());
+		System.out.println(s.getRoll());
+	}
+
+}

@@ -1,0 +1,75 @@
+package sort_using_comparator;
+
+import java.util.Arrays;
+
+public class FootBallWorldCup {
+
+	int n = 12;
+	Pair[] arr;
+	
+	public FootBallWorldCup() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public FootBallWorldCup(int n, Pair[] arr) {
+		super();
+		this.n = n;
+		this.arr = arr;
+	}
+	
+	
+	
+	public int getN() {
+		return n;
+	}
+
+	public void setN(int n) {
+		this.n = n;
+	}
+
+	public Pair[] getArr() {
+		return arr;
+	}
+
+	public void setArr(Pair[] arr) {
+		this.arr = arr;
+	}
+
+	String[] topTen() {
+		
+		Arrays.sort(arr,new StringSort());
+		Arrays.sort(arr,new IntSort());
+		
+		String[] strArr = new String[10];
+		for(int i=0;i<strArr.length;i++) {
+			strArr[i]=arr[i].name;
+		}
+		
+		return strArr;
+	}
+	
+	String winner() {
+		Arrays.sort(arr,new StringSort());
+		Arrays.sort(arr,new IntSort());
+		
+		return arr[0].name;
+	}
+	
+	void sortByName() {
+		Arrays.sort(arr,new StringSort());
+		System.out.println(Arrays.toString(arr));
+	}
+	
+	void sortByWinsAscending() {
+		Arrays.sort(arr,new IntSortAscending());
+		System.out.println(Arrays.toString(arr));
+	}
+	
+	void sortByWinsDescending() {
+		Arrays.sort(arr,new IntSort());
+		System.out.println(Arrays.toString(arr));
+	}
+	
+	
+}
