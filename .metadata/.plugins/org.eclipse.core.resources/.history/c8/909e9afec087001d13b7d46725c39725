@@ -1,0 +1,40 @@
+package sort_using_comparator;
+
+import java.util.Arrays;
+
+public class FootBallWorldCup {
+
+	int n = 32;
+	Pair[] arr;
+	
+	public FootBallWorldCup() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public FootBallWorldCup(int n, Pair[] arr) {
+		super();
+		this.n = n;
+		this.arr = arr;
+	}
+	
+	String[] topSixteen() {
+		
+		Arrays.sort(arr,new StringSort());
+		Arrays.sort(arr,new IntSort());
+		
+		String[] strArr = new String[16];
+		for(int i=0;i<strArr.length;i++) {
+			strArr[i]=arr[i].name;
+		}
+		
+		return strArr;
+	}
+	
+	String winner() {
+		Arrays.sort(arr,new StringSort());
+		Arrays.sort(arr,new IntSort());
+		
+		return arr[0].name;
+	}
+}

@@ -1,0 +1,9 @@
+package com.ImmutbleObject;
+
+public sealed class Student {
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

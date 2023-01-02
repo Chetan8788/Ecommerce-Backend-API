@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/sort_using_comparator/src/sort_using_comparator/Demo.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="sort_using_comparator.Demo"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="sort_using_comparator"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="sort_using_comparator"/>
+</launchConfiguration>
