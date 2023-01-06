@@ -1,0 +1,42 @@
+package com.functionalProgramming;
+
+import java.util.Collections;
+import java.util.List;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<Integer> list = List.of(12, 15, 13, 18, 20, 23, 35, 22, 18, 16, 16, 13, 20);
+		
+		// give me another list of odd numbers
+		// using stream api
+		
+		List<Integer> odd = list.stream().filter(i -> i%2 != 0).toList();
+		
+		System.out.println("odd list : "+odd);
+		
+		// give me distinct elements list // distinct means no duplicates
+		
+		List<Integer> distinct = list.stream().distinct().toList();
+		
+		System.out.println("distinct list : "+distinct);
+		
+		// give me list of the square of all odd elements
+		
+		List<Integer> square = list.stream().filter(i -> i%2 != 0).map(i -> i*i).toList();
+		
+		System.out.println("square odd list : "+square);
+		
+		// we have list of string of lower case
+		// convert it into into upper case
+		
+		List<String> strings = List.of("chetan","masai","amol","tejas");
+		
+		strings.stream().map(i -> i.toUpperCase()).forEach(i-> {
+			System.out.println(i);
+		});
+	}
+
+}

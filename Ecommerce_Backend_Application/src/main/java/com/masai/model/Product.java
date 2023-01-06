@@ -22,10 +22,10 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer productId;
 	
-	@Size(min = 3, max = 25, message = "Product Name should contain min 3 character." )
+//	@Size(min = 3, max = 25, message = "Product Name should contain min 3 character." )
 	private String productName;
 	
-	@Min(value = 1, message = "Please Enter a valid price")
+//	@Min(value = 1, message = "Please Enter a valid price")
 	private Double price;
 	
 	

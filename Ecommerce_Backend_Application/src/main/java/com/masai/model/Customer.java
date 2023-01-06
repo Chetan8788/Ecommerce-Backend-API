@@ -25,19 +25,19 @@ public class Customer {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer customerId;
 	
-	@Size(min = 1, max = 15, message = "Invalid first name, first name size must be less than 15")
+//	@Size(min = 1, max = 15, message = "Invalid first name, first name size must be less than 15")
 	private String firstName;
 	
-	@Size(min = 1, max = 15, message = "Invalid last name, last name size must be less than 15")
+//	@Size(min = 1, max = 15, message = "Invalid last name, last name size must be less than 15")
 	private String lastName;
 	
-	@Size(min = 10, max = 10, message = "Mobile Number should contain 10 digits")
+//	@Size(min = 10, max = 10, message = "Mobile Number should contain 10 digits")
 	private String mobileNumber;
 	
-	@Size(min = 4, max = 16, message = "Password length must be between 4 to 16 characters")
+//	@Size(min = 4, max = 16, message = "Password length must be between 4 to 16 characters")
 	private String password;
 	
-	@Email(message = "Invalid email")
+//	@Email(message = "Invalid email")
 	private String email;
 	
 	@OneToOne(cascade = CascadeType.ALL)

@@ -1,0 +1,5 @@
+package com.ImmutbleObject;
+
+public class Singleton {
+
+}

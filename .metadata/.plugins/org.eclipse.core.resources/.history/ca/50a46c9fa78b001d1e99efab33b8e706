@@ -1,0 +1,21 @@
+package com.SingletonObject;
+
+public class Singleton {
+
+	// singleton object means constructors are private
+	
+	private static Singleton singleton;
+	
+	private String name;
+	
+	private Singleton() {
+		this.name="chetan";
+	}
+	
+	public static Singleton provideSIngleton() {
+		if(singleton == null) {
+			singleton=new Singleton();
+		}
+		return singleton;
+	}
+}

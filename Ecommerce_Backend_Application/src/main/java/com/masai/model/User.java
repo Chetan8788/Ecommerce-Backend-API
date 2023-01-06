@@ -13,16 +13,16 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class User {
 	
-	@NotNull(message = "User Id can't be null...")
-	@NotBlank(message = "User Id cannot be blank.")
-	@NotEmpty(message = "User Id cannot be empty.")
+//	@NotNull(message = "User Id can't be null...")
+//	@NotBlank(message = "User Id cannot be blank.")
+//	@NotEmpty(message = "User Id cannot be empty.")
 	private String userId;
 	
 	private String password;
 	
-	@NotNull(message = "Please, Enter your role!")
-	@NotBlank(message = "Please, Enter your role!")
-	@NotEmpty(message = "Please, Enter your role!")
+//	@NotNull(message = "Please, Enter your role!")
+//	@NotBlank(message = "Please, Enter your role!")
+//	@NotEmpty(message = "Please, Enter your role!")
 	private String role;
 	
 	

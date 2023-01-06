@@ -1,0 +1,30 @@
+package com.Stack;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Stack;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Integer> list = Arrays.asList(1,2,3,4,5);
+
+		Stack<Integer> st = new Stack<>();
+		
+		st.addAll(list);
+		
+		System.out.println(st.peek());
+		System.out.println(st.pop());
+		
+		System.out.println(st);
+		
+		System.out.println(st.push(10));
+		
+		System.out.println(st);
+		
+		
+	}
+
+}
