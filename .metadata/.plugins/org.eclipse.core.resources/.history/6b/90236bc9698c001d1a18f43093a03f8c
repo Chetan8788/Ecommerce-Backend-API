@@ -1,0 +1,5 @@
+package com.functionalInterface;
+
+public interface MyFunctionalInterface2 {
+
+}

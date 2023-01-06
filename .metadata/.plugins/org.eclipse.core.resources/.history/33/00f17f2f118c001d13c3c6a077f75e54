@@ -1,0 +1,17 @@
+package com.functionalProgramming;
+
+import java.util.stream.IntStream;
+
+public class PrintingNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// print 1 to 10 without for loop
+
+		IntStream.range(1, 10).forEach((i) -> {
+			System.out.println(i);
+		});
+	}
+
+}

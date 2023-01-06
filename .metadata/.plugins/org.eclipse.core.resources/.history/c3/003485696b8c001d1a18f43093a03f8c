@@ -1,0 +1,5 @@
+package com.functionalInterface2;
+
+public interface EvenPredicate {
+
+}

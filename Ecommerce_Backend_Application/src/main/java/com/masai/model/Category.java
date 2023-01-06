@@ -15,9 +15,9 @@ public class Category {
 	
 	private Integer categoryId;
 	
-	@NotNull(message = "Category name can not be null.")
-	@NotEmpty(message = "Category name can not be empty.")
-	@NotBlank(message = "Category name can not be blank.")
+//	@NotNull(message = "Category name can not be null.")
+//	@NotEmpty(message = "Category name can not be empty.")
+//	@NotBlank(message = "Category name can not be blank.")
 	private String categoryName;
 	
 	
